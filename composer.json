@@ -1,0 +1,25 @@
+{
+    "name":"dulo-tech/aws-tools",
+    "description":"Common AWS classes.",
+    "keywords":["aws", "amazon"],
+    "homepage":"https://github.com/dulo-tech/aws-tools",
+    "type":"library",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Sean Hickey",
+            "email":"sean@dulotech.com"
+        }
+    ],
+    "require":{
+        "php":">=5.5.0"
+    },
+  "require-dev": {
+    "phpunit/phpunit": "4.4.*"
+  },
+    "autoload":{
+        "psr-0":{
+            "XDT":"src/"
+        }
+    }
+}
